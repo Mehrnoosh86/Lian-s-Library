@@ -19,7 +19,7 @@ A local Streamlit app for a personal library. Liane can find a book, see who has
 Start MySQL 8. The current connection in `database.py` uses the local server at `127.0.0.1:3306`, the `root` account, and the `lianes_bibliothek` schema.
 
 - If the schema already exists and contains the project tables, proceed to step 2.
-- For a fresh setup, open the course schema script `lianes-bibliothek (1).sql` in MySQL Workbench and run it on your local server. Then, if you want demo records, run `beispieldaten (1).sql` once. These SQL files are separate from the Python project folder.
+- For a fresh setup, open the course schema script `lianes-bibliothek.sql` in MySQL Workbench and run it on your local server. Then, if you want demo records, run `beispieldaten.sql` once. These SQL files are separate from the Python project folder.
 
 If your local connection uses a different host, port, user, or schema name, update those settings in `database.py`.
 
