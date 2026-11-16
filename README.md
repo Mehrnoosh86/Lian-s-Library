@@ -124,3 +124,6 @@ erDiagram
 2. Use **Loans** to record a loan with a due date on or after the loan date.
 3. In **Overview**, search for the borrower and confirm that the book shows as **On loan**. Use the **Active loans** card to narrow the results.
 4. Record the return. Check that the book shows as **Available** at its home shelf and that the returned loan remains visible under **Loan history**.
+
+## Project Type: A Streamlit web app for managing a personal library and tracking book loans and returns.
+Tools: SQL ·Streamlit,python,sqlalchemy Team-Work: Mehrnoosh Mohebi Damabi, Navid Modir Khazeni(https://github.com/Navid-Modir-Khazeni))
